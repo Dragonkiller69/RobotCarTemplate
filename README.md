@@ -11,29 +11,6 @@ Una vez armado el robotCar, descarga esta libreria y agregala a Arduino la libre
 *****************     *****************
 *  Ultrasonido  *     *   Carro       *
 *****************     *****************
-* pinEcho       *     * ancoderI      *
-* pinTrigger    *     * ancoderD      *
-* distancia     *     * adelanteI     *
-*****************     * atrasI        *
-* medir()       *     * potenciaI     *
-*****************     * adelanteD     *
-                      * atrasD        *
-                      * potenciaD     *
-                      * sensortrigerC *
-                      * sensorechoC   *
-                      * sensortrigerI *
-                      * sensorechoI   *
-                      * sensortrigerD *
-                      * sensorechoD   *
-                      * *UltraC       *
-                      * *UltraI       *
-                      * *UltraD       *
-                      * contaI        *
-                      * contaD        *
-                      *****************
-                      * mover()       *
-                      * girar()       *
-                      *****************
                       
 Estas clases seran el punto de partida, de aqui podra agregar la programación necesaria para incorporar el funcionamiento.
 Los miembros: UltraC, UltraI y UltraD representan los sensores ultrasonido del centro, izquierda y Derecha, estos miembros se implementan como punteros
